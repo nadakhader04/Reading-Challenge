@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.navbor{
+    position: fixed;
+    background-color: #c4773d;
+}
+.navbor ul {
+    display: flex;
+    height: 5rem;
+    width: 5000px;
+    padding-top: 1rem;
+    padding-right: 6rem;
+    font-size: 2rem;
+    color: var(--textColor);
+    gap: 5rem;
+    margin-top: 1rem;
+    margin-right: 7rem;
+}
+button{
+    background-color: #F5EDDF;
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    color: #1D3960;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #e69252;
+}
+
+.type{
+    display: block;
+    left: 0;
+}
+.header-of-left{
+    margin-top: 6rem;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width:400px;
+    height: 100vh;
+}
+.top-section{
+    display: block;
+    width: auto;
+    height: 150px;
+}
+.search{
+    margin-top: 4rem;
+    margin-right: 1rem;
+    height: 3rem;
+    border-radius: 15px;
+    border-color: #1D3960;
+}
+::placeholder{
+    font-size: 25px;
+    padding-right: 1rem;
+    justify-content: center;
+}
+.filter-but {
+    margin-top: 50px;
+    margin-right: 4rem;
+    width: 300px;
+    height: 90px;
+    background-color: #1D3960;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    color: #F5EDDF;
+    font-size: 38px;
+}
+.filter-option {
+    margin-right: 4rem;
+    margin-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    font-size: 25px;
+    border: 2px solid #1D3960;
+    border-radius: 30px;
+}
+.filter-option label{
+    display: block;
+    flex-direction: column;
+    cursor: pointer;
+    font-size: 25px; 
+}
+
+.botton-left-section{
+    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    
+    border: 2px solid #1D3960;
+    border-radius: 30px;
+}
+
+.botton-left-section label{
+    display: block;
+    padding-bottom: 1rem;
+    font-size: 25px;
+}
+
+.botton-left-section input{
+    width: 200px;
+    height: 40px;
+}
+.book-picture {
+    width: auto; 
+    height: 300px; 
+    vertical-align: top;
+    margin-right: 1.5rem;
+    margin-top: 0.5rem;
+    
+}
+.book-info{
+    text-align: center;
+    color: #F5EDDF;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.book-preview-container{
+   padding-right: 500px;
+   padding-top: 110px;
+   padding-bottom: 110px;
+   display: block;
+   flex-direction: row;
+   flex-wrap: wrap;
+   background-color: #F5EDDF;
+   height: 100&;
+}
+
+.book-preview{
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    background-color: #1D3960;
+    margin-left: 2rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+}

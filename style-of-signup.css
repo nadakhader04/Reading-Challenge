@@ -1,0 +1,129 @@
+:root{
+    --backColor : #F5EDDF;
+    --textColor : #1D3960;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.navbor{
+    background-color: #c4773d;
+}
+.navbor ul {
+    display: flex;
+    height: 5rem;
+    width: 5000px;
+    padding-top: 1rem;
+    padding-right: 6rem;
+    font-size: 2rem;
+    color: var(--textColor);
+}
+.signup {
+    margin-top: 1rem;
+    margin-right: 9rem;
+}
+.signup button{
+    background-color: var(--backColor);
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    color: var(--textColor);
+    border-radius: 6px;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: .5rem;
+}
+.my-book, .hero{
+    margin-top: 1rem;
+    margin-right: 7rem;
+}
+.home{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--backColor);
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.photo{ 
+    max-width: 100%;  
+    height: auto;
+}
+.sign-up{
+    text-align: center;
+    margin-top: 1rem; 
+    color: var(--backColor);
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--textColor);
+    height: 95vh;
+    width: 95vh;
+    border-bottom-left-radius: 20% 20%;
+    border-bottom-right-radius: 20% 20%;
+    border-top-left-radius: 20% 20%; 
+    border-top-right-radius: 20% 20%   
+}
+
+.sign-up h2 {
+    font-size: 1.5rem; 
+    padding-top: 4rem;
+}
+
+.sign-up h1 {
+    font-size: 2.5rem; 
+    padding-top: 4rem;
+}
+
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    text-align: right;
+    margin-right: 4rem;
+    margin-top: 0.5rem;
+}
+.input {
+    margin: 2rem 0; 
+    width: 100%; 
+}
+.input input {
+    width: 90%; 
+    padding: 1rem; 
+    margin: 0.5rem ; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1.2rem; 
+}
+
+button {
+    padding-top: 1rem ;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-left: 2rem;
+    font-size: 30px; 
+    border: none;
+    border-radius: 5px;
+    background-color: #c4773d;
+    color: var(--backColor);
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #e69252;
+}
+
+h4 {
+    margin-top: 2rem; 
+    font-size: 1.2rem;
+}

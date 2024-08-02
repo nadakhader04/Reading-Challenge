@@ -1,0 +1,199 @@
+:root{
+    --backColor : #F5EDDF;
+    --textColor : #1D3960;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.main{
+    background-color: var(--backColor);
+    display: block;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    border-bottom-right-radius: 40% 20% ;
+    border-bottom-left-radius: 40% 20% ;
+}
+.Home{   
+    display: block;
+    color: var(--textColor);
+    padding-bottom: 0%;
+    flex-wrap: wrap;
+}
+.title{
+    padding-top: 4rem;
+    padding-right: 3rem;
+    padding-left: 0%;
+}
+
+.interface-screen{
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0rem;
+    
+}
+.start-photo{
+    padding-top: 12rem;
+    padding-right: 1rem;
+    padding-left: 10rem;
+    height: 30rem;
+    width: auto;
+}
+
+p{
+    font-size: 1.5rem;
+    padding-top: 1.5rem;   
+    margin-right: 10rem;
+    padding-bottom: 0rem;
+}
+h1{
+    font-size: 4rem;
+    margin-top: 7rem;   
+    margin-right: 10rem;    
+}
+.more{
+    display: block;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    background-color: #c4773d;
+}
+.social{
+    padding-top: 2rem;
+    padding-right: 15rem;
+    padding-bottom: 0rem;
+    height: 8%;
+}
+.serch-book{
+    display: block;
+    padding-right: 20rem;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.inpt-book{
+    height: 50px;
+    width: 300px;
+}
+.serch{
+    /* margin-left: 0rem; */
+    background-color: #c4773d;
+}
+
+.navbor{
+    position: fixed;
+    background-color: #c4773d;
+}
+.navbor ul {
+    display: flex;
+    height: 5rem;
+    width: 5000px;
+    padding-top: 1rem;
+    padding-right: 6rem;
+    font-size: 2rem;
+    color: var(--textColor);
+}
+.my-book, .hero{
+    margin-top: 1rem;
+    margin-right: 7rem;
+}
+button{
+    background-color: var(--backColor);
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    color: var(--textColor);
+    border-radius: 6px;
+    border: none;
+}
+button:hover {
+    background-color: #e69252;
+}
+
+.signup {
+    margin-top: 1rem;
+    margin-right: 9rem;
+}
+.navbor, button:hover{
+    cursor: pointer;
+}
+:placeholder-shown{
+    font-size: 25px;
+    text-align: center;
+    justify-content: space-between;
+}
+input:focus{
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+
+
+
+
+.two-part{
+    display: block;
+}
+h2{
+    text-align: center;
+    color: var(--textColor);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+.book-typs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.book-typs .book-preview {
+    vertical-align: top;
+    text-align: center;
+    cursor: pointer; 
+}
+
+.book-typs h2 {
+    margin-top: 1rem; 
+    font-size: 2rem; 
+    color: var(--textColor); 
+    padding-bottom: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+.tail{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    background-color: var(--backColor);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10rem;
+}
+.tail-text h2{
+    color: #c4773d;
+}
+.tail-text p{
+    margin-left: 2rem;
+    color: var(--textColor);
+    padding-left: 10rem;
+    
+}
+.tail img{
+    margin-left: 5rem;
+    height: 20rem;
+    left: 0;
+}
